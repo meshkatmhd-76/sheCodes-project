@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+.nav {
+  padding: 10px 0 20px 0;
+}
+
+.yellow-color {
+  background-color: rgba(240, 240, 126, 0.875);
+}
+.center {
+  text-align: center;
+  line-height: 1;
+}
+.border {
+  padding: 40px;
+}
+.small-font {
+  font-size: 10px;
+}
+#city-name,
+#degree {
+  font-size: 30px;
+}
+#degree {
+  font-weight: bold;
+}
+.git-info {
+  font-size: 12px;
+}
