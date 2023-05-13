@@ -23,7 +23,7 @@
         <div class="border">
           <div class="body">
             <form id="search-from">
-              <div class="row">
+              <div class="row  ">
                 <div class="col-7">
                   <div class="form-group">
                     <input
@@ -49,26 +49,37 @@
               </div>
             </form>
             <div class="row nav">
-              <div class="col-12">
-                <p id="show-time"></p>
+              <div class="col-12 overview ">
+                <h1 id="city-name"></h1>
+                <ul>
+                  <li>
+                    Last updated:
+                    <span id="show-time"></span>
+                  </li>
+                  <li id="description"></li>
+                </ul>
               </div>
-              <div class="col-6">
-                <p>
-                  <span id="city-name"></span>
-                  <br />
-                  <span id="degree"></span>°C
-                </p>
-              </div>
-              <div class="col-6">
-                <small></small>
-
-                <p class="small-font">
-                  Humidity: <span id="humidity"></span> <br />Wind:
-                  <span id="wind"></span> km/h
-                </p>
-              </div>
-              <div class="col-6"></div>
             </div>
+            <div class="row">
+            <div class="col-6">
+              <div class="d-flex weather-temperature">
+                <img src="" alt="Clear" id="icon" class="float-left" />
+                <div>
+                  <strong id="degree"></strong
+                  ><span class="units"
+                    ><a href="#" id="celsius-link" class="active">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a></span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
+              </ul>
+            </div>
+          </div>
             <!-- <div class="row">
               <div class="">
                 <table class="table table-bordered yellow-color">
@@ -117,8 +128,12 @@
         </div>
       </div>
       <p class="git-info">
-      <a href="https://github.com/meshkatmhd-76/sheCodes-project">Open-source code</a> by mahdieh mohammadi
-      </p><!-- </div> -->
+        <a href="https://github.com/meshkatmhd-76/sheCodes-project"
+          >Open-source code</a
+        >
+        by mahdieh mohammadi
+      </p>
+      <!-- </div> -->
     </div>
     <script src="src/index.js"></script>
   </body>
