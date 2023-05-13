@@ -1,6 +1,10 @@
 body {
   font-family: sans-serif;
 }
+.main{
+  margin: 30px auto;
+  max-width: 600px;
+}
 .nav {
   padding: 10px 0 20px 0;
 }
@@ -14,6 +18,7 @@ body {
 }
 .border {
   padding: 40px;
+  border-radius: 4px;
 }
 .small-font {
   font-size: 10px;
@@ -50,9 +55,11 @@ li {
 }
 
 .weather-temperature strong {
+    position: relative;
+  top: 10px;
+
   color: rgb(33, 33, 33);
   font-size: 64px;
-  line-height: 1;
   font-weight: 400;
 }
 .overview {
@@ -61,7 +68,7 @@ li {
 .weather-temperature .units {
   position: relative;
   font-size: 16px;
-  top: -34px;
+  top: -10px;
 }
 
 .weather-temperature .active {
