@@ -1,9 +1,8 @@
-
 body {
   font-family: sans-serif;
   background-color: rgb(238, 228, 248);
 }
-.main{
+.main {
   margin: 30px auto;
   max-width: 600px;
 }
@@ -22,7 +21,6 @@ body {
   padding: 40px;
   border-radius: 4px;
   background-color: #fff;
-
 }
 .small-font {
   font-size: 10px;
@@ -59,7 +57,7 @@ li {
 }
 
 .weather-temperature strong {
-    position: relative;
+  position: relative;
   top: 10px;
 
   color: rgb(33, 33, 33);
@@ -84,28 +82,31 @@ li {
   text-decoration: none;
 }
 
-.srach-form{
-  background-color:blueviolet;
-  color:#fff;
-  border : 2px solid blueviolet;
+.srach-form {
+  background-color: blueviolet;
+  color: #fff;
+  border: 2px solid blueviolet;
   margin-right: 10px;
-  
 }
-.srach-form:hover{
-  color:blueviolet;
-  background-color:#fff;
-  border : 2px solid blueviolet;
-  
+.srach-form:hover {
+  color: blueviolet;
+  background-color: #fff;
+  border: 2px solid blueviolet;
 }
-#current-location{
-  background-color:#fff;
-  color:blueviolet;
-  border : 2px solid white;
+#current-location {
+  background-color: #fff;
+  color: blueviolet;
+  border: 2px solid white;
 }
-#current-location:hover{
- background-color:#fff;
-  color:blueviolet;
-  border : 2px solid blueviolet;
+#current-location:hover {
+  background-color: #fff;
+  color: blueviolet;
+  border: 2px solid blueviolet;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
 }
 .weather-forecast-date {
   font-size: 16px;
