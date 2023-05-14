@@ -107,3 +107,15 @@ li {
   color:blueviolet;
   border : 2px solid blueviolet;
 }
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}

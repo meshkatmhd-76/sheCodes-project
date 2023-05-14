@@ -23,7 +23,7 @@
         <div class="border">
           <div class="body">
             <form id="search-from">
-              <div class="row  ">
+              <div class="row">
                 <div class="col-7">
                   <div class="form-group">
                     <input
@@ -35,21 +35,15 @@
                   </div>
                 </div>
                 <div class="col-2">
-                  <input
-                    type="submit"
-                    value="Search"
-                    class="btn  srach-form"
-                  />
+                  <input type="submit" value="Search" class="btn srach-form" />
                 </div>
                 <div class="col-3">
-                  <button class="btn " id="current-location">
-                    Current
-                  </button>
+                  <button class="btn" id="current-location">Current</button>
                 </div>
               </div>
             </form>
             <div class="row nav">
-              <div class="col-12 overview ">
+              <div class="col-12 overview">
                 <h1 id="city-name"></h1>
                 <ul>
                   <li>
@@ -61,75 +55,48 @@
               </div>
             </div>
             <div class="row">
-            <div class="col-6">
-              <div class="d-flex weather-temperature">
-                <img src="" alt="Clear" id="icon" class="float-left" />
-                <div>
-                  <strong id="degree"></strong
-                  ><span class="units"
-                    ><a href="#" id="celsius-link" class="active">°C</a> |
-                    <a href="#" id="fahrenheit-link">°F</a></span
-                  >
+              <div class="col-6">
+                <div class="d-flex weather-temperature">
+                  <img src="" alt="Clear" id="icon" class="float-left" />
+                  <div>
+                    <strong id="degree"></strong
+                    ><span class="units"
+                      ><a href="#" id="celsius-link" class="active">°C</a> |
+                      <a href="#" id="fahrenheit-link">°F</a></span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <ul>
+                  <li>Humidity: <span id="humidity"></span>%</li>
+                  <li>Wind: <span id="wind"></span> km/h</li>
+                </ul>
+              </div>
+            </div>
+             <div class="weather-forecast">
+            <div class="row">
+              <div class="col-2">
+                <div class="weather-forecast-date">Thu</div>
+                <img
+                  src="http://openweathermap.org/img/wn/50d@2x.png"
+                  alt=""
+                  width="42"
+                />
+                <div class="weather-forecast-temperatures">
+                  <span class="weather-forecast-temperature-max"> 18° </span>
+                  <span class="weather-forecast-temperature-min"> 12° </span>
                 </div>
               </div>
             </div>
-            <div class="col-6">
-              <ul>
-                <li>Humidity: <span id="humidity"></span>%</li>
-                <li>Wind: <span id="wind"></span> km/h</li>
-              </ul>
-            </div>
           </div>
-            <!-- <div class="row">
-              <div class="">
-                <table class="table table-bordered yellow-color">
-                  <thead>
-                    <tr>
-                      <th scope="col-2">saturday</th>
-                      <th scope="col-2">sunday</th>
-                      <th scope="col-2">Monday</th>
-                      <th scope="col-2">Tuesday</th>
-                      <th scope="col-2">wednesday</th>
-                      <th scope="col-2">thursday</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>
-                        21°C/21°C
-                        <p class="center">🌞</p>
-                      </td>
-                      <td>
-                        21°C/21°C
-                        <p class="center">🌞</p>
-                      </td>
-                      <td>
-                        8°C/12°C
-                        <p class="center">☂</p>
-                      </td>
-                      <td>
-                        21°C/21°C
-                        <p class="center">🌞</p>
-                      </td>
-                      <td>
-                        5°C/10°C
-                        <p class="center">☔</p>
-                      </td>
-                      <td>
-                        -1°C/2°C
-                        <p class="center">❄</p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div> -->
           </div>
         </div>
       </div>
       <p class="git-info">
-        <a href="https://github.com/meshkatmhd-76/sheCodes-project"
-        target="_blank"
+        <a
+          href="https://github.com/meshkatmhd-76/sheCodes-project"
+          target="_blank"
           >Open-source code</a
         >
         by mahdieh mohammadi
