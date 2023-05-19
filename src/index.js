@@ -106,16 +106,16 @@ function showForcast(response) {
           <div class="weather-forecast-date">${formatDay(forcastDay.time)}</div>
             <img
             src=${forcastDay.condition.icon_url}
-            alt=""
+            alt="${forcastDay.condition.icon}"
             width="42"
             />
             <div class="weather-forecast-temperatures">
-              <span class="weather-forecast-temperature-max"> ${
-                Math.round(forcastDay.temperature.maximum)
-              }° </span>
-              <span class="weather-forecast-temperature-min"> ${
-                Math.round(forcastDay.temperature.minimum)
-              }° </span>
+              <span class="weather-forecast-temperature-max"> ${Math.round(
+                forcastDay.temperature.maximum
+              )}° </span>
+              <span class="weather-forecast-temperature-min"> ${Math.round(
+                forcastDay.temperature.minimum
+              )}° </span>
             </div>
           </div>
     `;

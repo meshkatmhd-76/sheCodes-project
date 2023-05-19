@@ -1,9 +1,9 @@
 body {
   font-family: sans-serif;
-  background-color: rgb(238, 228, 248);
+  background-color: rgb(234, 228, 248);
 }
 .main {
-  margin: 30px auto;
+  margin: 50px auto;
   max-width: 600px;
 }
 .nav {
@@ -25,7 +25,7 @@ body {
 .small-font {
   font-size: 10px;
 }
-#city-name{
+#city-name {
   color: #878787;
   font-size: 30px;
   font-weight: 500;
@@ -33,10 +33,10 @@ body {
 #degree {
   font-weight: bold;
   font-size: 40px;
-
 }
 .git-info {
   font-size: 12px;
+  padding-left: 10px;
 }
 ul {
   margin: 0;
@@ -60,7 +60,7 @@ li {
 }
 
 .weather-temperature strong {
-   color: rgb(33, 33, 33);
+  color: rgb(33, 33, 33);
   font-size: 64px;
   line-height: 1;
   font-weight: 400;

@@ -17,66 +17,63 @@
   </head>
   <body>
     <div class="container main">
-      <div class="row">
-        <!-- <div class="col-3"></div> -->
-        <!-- <div class="col-12"> -->
-        <div class="border">
-          <div class="body">
-            <form id="search-from">
-              <div class="row">
-                <div class="col-7">
-                  <div class="form-group">
-                    <input
-                      id="city-input"
-                      class="form-control"
-                      type="text"
-                      placeholder="Enter your city"
-                    />
-                  </div>
-                </div>
-                <div class="col-2">
-                  <input type="submit" value="Search" class="btn srach-form" />
-                </div>
-                <div class="col-3">
-                  <button class="btn" id="current-location">Current</button>
-                </div>
-              </div>
-            </form>
-            <div class="row nav">
-              <div class="col-12 overview">
-                <h1 id="city-name"></h1>
-                <ul>
-                  <li>
-                    Last updated:
-                    <span id="show-time"></span>
-                  </li>
-                  <li id="description"></li>
-                </ul>
-              </div>
-            </div>
+      <!-- <div class="col-3"></div> -->
+      <!-- <div class="col-12"> -->
+      <div class="border">
+        <div class="body">
+          <form id="search-from">
             <div class="row">
-              <div class="col-6">
-                <div class="d-flex weather-temperature">
-                  <img src="" alt="Clear" id="icon" class="float-left" />
-                  <div>
-                    <strong id="degree"></strong
-                    ><span class="units"
-                      ><span>°C</span> 
-                
-                  </div>
+              <div class="col-7">
+                <div class="form-group">
+                  <input
+                    id="city-input"
+                    class="form-control"
+                    type="text"
+                    placeholder="Enter your city"
+                  />
                 </div>
               </div>
-              <div class="col-6">
-                <ul>
-                  <li>Humidity: <span id="humidity"></span>%</li>
-                  <li>Wind: <span id="wind"></span> km/h</li>
-                </ul>
+              <div class="col-2">
+                <input type="submit" value="Search" class="btn srach-form" />
+              </div>
+              <div class="col-3">
+                <button class="btn" id="current-location">Current</button>
               </div>
             </div>
-            <div class="weather-forecast" id="weather-forecast"></div>
+          </form>
+          <div class="row nav">
+            <div class="col-12 overview">
+              <h1 id="city-name"></h1>
+              <ul>
+                <li>
+                  Last updated:
+                  <span id="show-time"></span>
+                </li>
+                <li id="description"></li>
+              </ul>
+            </div>
           </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="d-flex weather-temperature">
+                <img src="" alt="Clear" id="icon" class="float-left" />
+                <div>
+                  <strong id="degree"></strong
+                  ><span class="units"><span>°C</span> </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
+              </ul>
+            </div>
+          </div>
+          <div class="weather-forecast" id="weather-forecast"></div>
         </div>
       </div>
+
       <p class="git-info">
         <a
           href="https://github.com/meshkatmhd-76/sheCodes-project"
